@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  RUST_VERSION: "1.81"
+  RUST_VERSION: "1.82"
 
 jobs:
   fmt:
@@ -287,7 +287,7 @@ jobs:
         with:
           key: arm-binary-${{ matrix.arch }}
       - name: "Download `cross` crate"
-        run: cargo install cross
+        run: cargo install cross --locked
       - uses: actions/checkout@v4
       - name: "Build release"
         run: cross build --target $RUST_TARGET --release
