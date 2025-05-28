@@ -1,0 +1,22 @@
+{
+  "background_color": "#6200EE",
+  "description": "Mobile lottery statistics and number generator app",
+  "display": "standalone",
+  "lang": "en",
+  "name": "Lottery Helper",
+  "short_name": "Lottery Helper",
+  "start_url": "/?utm_source=web_app_manifest",
+  "orientation": "portrait",
+  "related_applications": [
+    {
+      "platform": "itunes",
+      "id": "com.lotteryhelper.app"
+    },
+    {
+      "platform": "play",
+      "url": "http://play.google.com/store/apps/details?id=com.lotteryhelper.app",
+      "id": "com.lotteryhelper.app"
+    }
+  ],
+  "prefer_related_applications": true
+}
